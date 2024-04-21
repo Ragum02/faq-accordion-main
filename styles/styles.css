@@ -114,7 +114,8 @@ button {
 
 @media (max-width : 425px) {
     .faq-body {
-        max-width: 65%;
+        max-width: 65%
+        max-height: 130vh;
     }
     .container.active .content{
         margin-bottom: 5px;
