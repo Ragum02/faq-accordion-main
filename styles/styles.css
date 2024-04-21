@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
     --light-purple : hsl(275, 100%, 97%);
     --grayish-purple: hsl(292, 16%, 49%);
@@ -119,5 +119,8 @@ button {
     .container.active .content{
         margin-bottom: 5px;
         max-height: 130px;
+    }
+    .attribution{
+        z-index:-1;
     }
 }
